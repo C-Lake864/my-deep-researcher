@@ -2,4 +2,4 @@ langgraph>=1.0
 langchain-core>=1.0
 openai>=1.40
 streamlit>=1.40
-playwright>=1.40  # capture.py (선택)
+# capture.py(화면 캡처)만 쓰는 선택 의존성: pip install playwright
