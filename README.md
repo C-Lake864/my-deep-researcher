@@ -5,6 +5,7 @@
 
 - 코퍼스: 영어 위키백과 55건 · 1,799,662자 (≈45만 토큰, gpt-4o-mini 창 128k 의 3.5배) · 코퍼스 내부 링크
 - 모델: gpt-4o-mini · 오케스트레이션: LangGraph · 데모: Streamlit
+- **데모: https://world-of-tomorrow.streamlit.app/** (공개 보기 모드 — 저장된 결과만, API 호출 없음)
 - 설계·실험·판단은 [REPORT.md](REPORT.md)
 
 ## 실행

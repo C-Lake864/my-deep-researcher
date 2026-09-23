@@ -254,7 +254,7 @@ q7에서는 코디네이터가 본 원문이 서브에이전트가 실제로 읽
 
 ## 7. 데모 설계
 
-`streamlit run app.py`. 화면 캡처는 `docs/`에 있다.
+배포: **https://world-of-tomorrow.streamlit.app/** (API 키 없이 배포 → 공개 보기 모드). 로컬: `streamlit run app.py`. 화면 캡처는 `docs/`에 있다.
 
 | 화면 | 보여 주는 것 | 신경 쓴 점 |
 |---|---|---|
