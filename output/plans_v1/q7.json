@@ -1,0 +1,49 @@
+{
+ "qid": "q7",
+ "question": "What was Elektro, the Westinghouse robot?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "home",
+    "heading": "Elektro: The Westinghouse Robot",
+    "focus": "English: what was Elektro, the Westinghouse robot, and its significance at the fair",
+    "start_docs": [
+     "D13"
+    ]
+   }
+  ],
+  "rationale": "The question specifically pertains to Elektro, which is a home appliance and a significant exhibit related to consumer technology at the fair. Thus, the 'home' role is the most relevant for this inquiry."
+ },
+ "plan": [
+  {
+   "role": "home",
+   "heading": "Elektro: The Westinghouse Robot",
+   "focus": "English: what was Elektro, the Westinghouse robot, and its significance at the fair",
+   "start_docs": [
+    "D13"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 1,
+  "max_calls": 12,
+  "approx_prompt_tokens": 34600,
+  "approx_cost_usd": 0.0095,
+  "read_budget_chars": 12000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2840,
+  "completion_tokens": 113,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

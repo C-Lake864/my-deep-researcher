@@ -1,0 +1,9 @@
+.env
+*.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/_page_cache.json
+output/logs/
+output/ablation_v1_buggy/logs/
+.claude/

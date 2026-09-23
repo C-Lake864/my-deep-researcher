@@ -1,0 +1,74 @@
+{
+ "qid": "q3",
+ "question": "How did GM's Futurama vision of highways and cars connect to the highways and suburbs that were actually built in America after the war?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "Futurama and the Vision of Future Highways",
+    "focus": "How GM's Futurama exhibition envisioned the future of highways and cars, and its implications for post-war America.",
+    "start_docs": [
+     "D19",
+     "D21",
+     "D28"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Urban Planning and Suburban Development",
+    "focus": "The connection between the urban planning ideas presented at the fair and the actual development of suburbs and infrastructure in America after the war.",
+    "start_docs": [
+     "D20",
+     "D45",
+     "D49"
+    ]
+   }
+  ],
+  "rationale": "The question specifically addresses the relationship between GM's Futurama vision and the subsequent development of highways and suburbs, necessitating a focus on transport and city planning roles to provide a comprehensive answer."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "Futurama and the Vision of Future Highways",
+   "focus": "How GM's Futurama exhibition envisioned the future of highways and cars, and its implications for post-war America.",
+   "start_docs": [
+    "D19",
+    "D21",
+    "D28"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Urban Planning and Suburban Development",
+   "focus": "The connection between the urban planning ideas presented at the fair and the actual development of suburbs and infrastructure in America after the war.",
+   "start_docs": [
+    "D20",
+    "D45",
+    "D49"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 2,
+  "max_calls": 23,
+  "approx_prompt_tokens": 63200,
+  "approx_cost_usd": 0.0178,
+  "read_budget_chars": 24000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2858,
+  "completion_tokens": 195,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

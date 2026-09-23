@@ -1,0 +1,95 @@
+{
+ "qid": "q9",
+ "question": "How did the looming Second World War and the international pavilions complicate the fair's optimistic vision of tomorrow?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "society",
+    "heading": "The Impact of Global Conflict on the Fair's Vision",
+    "focus": "English: how the looming Second World War and the international pavilions complicated the fair's optimistic vision of tomorrow",
+    "start_docs": [
+     "D23",
+     "D30",
+     "D39"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Urban Planning Amidst Global Uncertainty",
+    "focus": "English: how the fair's urban planning and infrastructure showcased a vision of the future that was challenged by the impending war",
+    "start_docs": [
+     "D05",
+     "D20",
+     "D49"
+    ]
+   },
+   {
+    "role": "transport",
+    "heading": "Transportation Innovations and War Realities",
+    "focus": "English: how transportation exhibits reflected a hopeful future while being overshadowed by the realities of global conflict",
+    "start_docs": [
+     "D19",
+     "D21",
+     "D18"
+    ]
+   }
+  ],
+  "rationale": "The split is based on the content domains that address the complexities introduced by the looming Second World War and the international pavilions at the fair. The sections focus on societal implications, urban planning, and transportation, each providing a unique perspective on how the fair's optimistic vision was complicated by external geopolitical factors."
+ },
+ "plan": [
+  {
+   "role": "society",
+   "heading": "The Impact of Global Conflict on the Fair's Vision",
+   "focus": "English: how the looming Second World War and the international pavilions complicated the fair's optimistic vision of tomorrow",
+   "start_docs": [
+    "D23",
+    "D30",
+    "D39"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Urban Planning Amidst Global Uncertainty",
+   "focus": "English: how the fair's urban planning and infrastructure showcased a vision of the future that was challenged by the impending war",
+   "start_docs": [
+    "D05",
+    "D20",
+    "D49"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "transport",
+   "heading": "Transportation Innovations and War Realities",
+   "focus": "English: how transportation exhibits reflected a hopeful future while being overshadowed by the realities of global conflict",
+   "start_docs": [
+    "D19",
+    "D21",
+    "D18"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 3,
+  "max_calls": 34,
+  "approx_prompt_tokens": 91800,
+  "approx_cost_usd": 0.026,
+  "read_budget_chars": 36000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2853,
+  "completion_tokens": 284,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

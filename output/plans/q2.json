@@ -1,0 +1,137 @@
+{
+ "qid": "q2",
+ "question": "Whose future was the 'World of Tomorrow'? Who was included and who was left out of the visions presented at the 1939 fair?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "Automobile and Transportation Futures",
+    "focus": "Who was included in the visions of transportation at the fair, and what corporate intentions were behind them?",
+    "start_docs": [
+     "D19",
+     "D21",
+     "D07"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Future Cities and Infrastructure",
+    "focus": "What visions of urban planning and infrastructure were presented, and who was included or excluded from these visions?",
+    "start_docs": [
+     "D20",
+     "D49",
+     "D43"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "Home and Daily Life",
+    "focus": "What future visions of home life and consumer products were showcased, and who were the intended audiences?",
+    "start_docs": [
+     "D27",
+     "D11",
+     "D32"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "Media and Scientific Futures",
+    "focus": "What future visions of media and communication were presented, and who was included or excluded from these narratives?",
+    "start_docs": [
+     "D26",
+     "D38",
+     "D55"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "Societal Implications of the 'World of Tomorrow'",
+    "focus": "Whose future was envisioned at the fair, particularly in the context of social and political issues of the time?",
+    "start_docs": [
+     "D30",
+     "D23",
+     "D39"
+    ]
+   }
+  ],
+  "rationale": "이 보고서는 1939년 뉴욕 세계 박람회에서 제시된 미래 비전의 포괄적인 분석을 위해 여러 역할로 나뉘어 있습니다. 각 섹션은 교통, 도시, 가정, 미디어, 사회적 맥락을 다루며, 각 섹션의 시작 문서는 해당 주제에 대한 가장 구체적인 정보를 제공하는 문서로 선택되었습니다. 이로 인해 박람회에서 누구의 미래가 포함되었고 누가 배제되었는지를 명확하게 분석할 수 있습니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "Automobile and Transportation Futures",
+   "focus": "Who was included in the visions of transportation at the fair, and what corporate intentions were behind them?",
+   "start_docs": [
+    "D19",
+    "D21",
+    "D07"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Future Cities and Infrastructure",
+   "focus": "What visions of urban planning and infrastructure were presented, and who was included or excluded from these visions?",
+   "start_docs": [
+    "D20",
+    "D49",
+    "D43"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "Home and Daily Life",
+   "focus": "What future visions of home life and consumer products were showcased, and who were the intended audiences?",
+   "start_docs": [
+    "D27",
+    "D11",
+    "D32"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "Media and Scientific Futures",
+   "focus": "What future visions of media and communication were presented, and who was included or excluded from these narratives?",
+   "start_docs": [
+    "D26",
+    "D38",
+    "D55"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "Societal Implications of the 'World of Tomorrow'",
+   "focus": "Whose future was envisioned at the fair, particularly in the context of social and political issues of the time?",
+   "start_docs": [
+    "D30",
+    "D23",
+    "D39"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2988,
+  "completion_tokens": 376,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

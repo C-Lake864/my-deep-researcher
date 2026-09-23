@@ -1,0 +1,74 @@
+{
+ "qid": "q3",
+ "question": "How did GM's Futurama vision of highways and cars connect to the highways and suburbs that were actually built in America after the war?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "GM's Futurama and the Vision of Highways",
+    "focus": "How GM's Futurama vision of highways and cars influenced the actual highways built in America after the war.",
+    "start_docs": [
+     "D19",
+     "D21",
+     "D28"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Urban Planning and Suburban Development",
+    "focus": "The connection between Futurama's vision of urban infrastructure and the suburbs that were developed post-war.",
+    "start_docs": [
+     "D20",
+     "D29",
+     "D43"
+    ]
+   }
+  ],
+  "rationale": "이 질문은 GM의 Futurama 전시가 전후 미국에서 실제로 건설된 고속도로와 교외와 어떻게 연결되는지를 묻고 있습니다. 첫 번째 섹션은 교통과 관련된 내용으로, Futurama와 GM의 비전이 고속도로와 자동차에 미친 영향을 다루고 있습니다. 두 번째 섹션은 도시 계획 및 교외 개발과 관련된 내용을 포함하여, Futurama의 도시 인프라 비전과 전후 개발된 교외 간의 연관성을 설명합니다. 각 섹션은 질문의 특정 측면을 다루기 위해 가장 관련성이 높은 문서로 시작합니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "GM's Futurama and the Vision of Highways",
+   "focus": "How GM's Futurama vision of highways and cars influenced the actual highways built in America after the war.",
+   "start_docs": [
+    "D19",
+    "D21",
+    "D28"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Urban Planning and Suburban Development",
+   "focus": "The connection between Futurama's vision of urban infrastructure and the suburbs that were developed post-war.",
+   "start_docs": [
+    "D20",
+    "D29",
+    "D43"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 2,
+  "max_calls": 23,
+  "approx_prompt_tokens": 63200,
+  "approx_cost_usd": 0.0178,
+  "read_budget_chars": 24000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2987,
+  "completion_tokens": 254,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

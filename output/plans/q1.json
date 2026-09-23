@@ -1,0 +1,127 @@
+{
+ "qid": "q1",
+ "question": "How did the 1939 New York World's Fair imagine the future city and everyday life, and how did the visions of organizers and corporations differ?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "자동차와 교통",
+    "focus": "How did the 1939 New York World's Fair envision the future of transportation and mobility?",
+    "start_docs": [
+     "D19",
+     "D18"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "미래 도시와 인프라",
+    "focus": "How did the 1939 New York World's Fair portray future cities and urban infrastructure?",
+    "start_docs": [
+     "D20",
+     "D48"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "가정과 일상생활",
+    "focus": "What visions of home and everyday life were presented at the 1939 New York World's Fair?",
+    "start_docs": [
+     "D27",
+     "D11"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "통신·매체와 과학",
+    "focus": "How did the 1939 New York World's Fair represent the future of media and communication?",
+    "start_docs": [
+     "D26",
+     "D55"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "사회·정치",
+    "focus": "Whose future was envisioned at the 1939 New York World's Fair and what societal contexts were included or excluded?",
+    "start_docs": [
+     "D23",
+     "D30"
+    ]
+   }
+  ],
+  "rationale": "이 질문은 1939년 뉴욕 세계 박람회가 미래 도시, 교통, 가정, 미디어, 사회적 맥락을 어떻게 상상했는지를 다루고 있습니다. 각 섹션은 특정 역할에 따라 나누어져 있으며, 각 섹션의 시작 문서는 해당 주제에 가장 관련성이 높은 문서로 선택되었습니다. 이를 통해 박람회에서 제시된 다양한 미래 비전을 명확하게 탐구할 수 있습니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "자동차와 교통",
+   "focus": "How did the 1939 New York World's Fair envision the future of transportation and mobility?",
+   "start_docs": [
+    "D19",
+    "D18"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "미래 도시와 인프라",
+   "focus": "How did the 1939 New York World's Fair portray future cities and urban infrastructure?",
+   "start_docs": [
+    "D20",
+    "D48"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "가정과 일상생활",
+   "focus": "What visions of home and everyday life were presented at the 1939 New York World's Fair?",
+   "start_docs": [
+    "D27",
+    "D11"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "통신·매체와 과학",
+   "focus": "How did the 1939 New York World's Fair represent the future of media and communication?",
+   "start_docs": [
+    "D26",
+    "D55"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "사회·정치",
+   "focus": "Whose future was envisioned at the 1939 New York World's Fair and what societal contexts were included or excluded?",
+   "start_docs": [
+    "D23",
+    "D30"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2988,
+  "completion_tokens": 337,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

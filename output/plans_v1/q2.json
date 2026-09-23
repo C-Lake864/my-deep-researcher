@@ -1,0 +1,137 @@
+{
+ "qid": "q2",
+ "question": "Whose future was the 'World of Tomorrow'? Who was included and who was left out of the visions presented at the 1939 fair?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "society",
+    "heading": "Whose Future Was It?",
+    "focus": "English: This section must answer who was included and who was left out of the visions presented at the 1939 fair, considering the social and political context.",
+    "start_docs": [
+     "D23",
+     "D30",
+     "D39"
+    ]
+   },
+   {
+    "role": "transport",
+    "heading": "Transportation in the World of Tomorrow",
+    "focus": "English: This section must answer how transportation exhibitions like Futurama depicted the future of mobility and the corporate intentions behind them.",
+    "start_docs": [
+     "D19",
+     "D18",
+     "D07"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Future Cities and Infrastructure",
+    "focus": "English: This section must answer how exhibitions like Democracity envisioned urban planning and infrastructure in the future.",
+    "start_docs": [
+     "D05",
+     "D20",
+     "D49"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "Home and Daily Life in the Future",
+    "focus": "English: This section must answer how the fair showcased advancements in household appliances and materials that would shape future domestic life.",
+    "start_docs": [
+     "D27",
+     "D11",
+     "D54"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "Media and Communication's Future",
+    "focus": "English: This section must answer how the fair's exhibitions depicted the future of media and communication technologies.",
+    "start_docs": [
+     "D26",
+     "D38",
+     "D55"
+    ]
+   }
+  ],
+  "rationale": "Korean: The question addresses the inclusivity and exclusivity of the visions presented at the fair, which relates to societal context. Additionally, it explores various domains such as transportation, urban planning, domestic life, and media, necessitating a split by content domain to comprehensively cover the multifaceted aspects of the fair."
+ },
+ "plan": [
+  {
+   "role": "society",
+   "heading": "Whose Future Was It?",
+   "focus": "English: This section must answer who was included and who was left out of the visions presented at the 1939 fair, considering the social and political context.",
+   "start_docs": [
+    "D23",
+    "D30",
+    "D39"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "transport",
+   "heading": "Transportation in the World of Tomorrow",
+   "focus": "English: This section must answer how transportation exhibitions like Futurama depicted the future of mobility and the corporate intentions behind them.",
+   "start_docs": [
+    "D19",
+    "D18",
+    "D07"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Future Cities and Infrastructure",
+   "focus": "English: This section must answer how exhibitions like Democracity envisioned urban planning and infrastructure in the future.",
+   "start_docs": [
+    "D05",
+    "D20",
+    "D49"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "Home and Daily Life in the Future",
+   "focus": "English: This section must answer how the fair showcased advancements in household appliances and materials that would shape future domestic life.",
+   "start_docs": [
+    "D27",
+    "D11",
+    "D54"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "Media and Communication's Future",
+   "focus": "English: This section must answer how the fair's exhibitions depicted the future of media and communication technologies.",
+   "start_docs": [
+    "D26",
+    "D38",
+    "D55"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2859,
+  "completion_tokens": 422,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

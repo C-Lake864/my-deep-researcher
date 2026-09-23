@@ -1,0 +1,100 @@
+{
+ "qid": "q6",
+ "question": "How did Robert Moses shape the fairgrounds and New York's infrastructure, and what social costs followed?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "자동차와 교통",
+    "focus": "How did Robert Moses influence transportation at the fair and in New York?",
+    "start_docs": [
+     "D19",
+     "D43",
+     "D18"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "미래 도시와 인프라",
+    "focus": "What urban planning concepts were presented at the fair and how did they relate to Robert Moses' vision?",
+    "start_docs": [
+     "D43",
+     "D17",
+     "D49"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "사회·정치",
+    "focus": "What social costs and exclusions were associated with Robert Moses' projects and the fair's vision?",
+    "start_docs": [
+     "D30",
+     "D39",
+     "D23"
+    ]
+   }
+  ],
+  "rationale": "이 질문은 로버트 모세스의 영향력과 그가 형성한 뉴욕의 인프라 및 사회적 비용에 대한 것입니다. 각 섹션은 교통, 도시 계획, 사회적 맥락을 다루며, 각 역할에 맞는 가장 구체적인 문서로 시작합니다. 교통 섹션은 'Futurama'와 관련된 문서로 시작하고, 도시 섹션은 로버트 모세스에 대한 문서로 시작하며, 사회 섹션은 사회적 비용을 다루는 문서로 시작합니다. 이 구조는 질문의 모든 측면을 포괄적으로 다루기 위해 설계되었습니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "자동차와 교통",
+   "focus": "How did Robert Moses influence transportation at the fair and in New York?",
+   "start_docs": [
+    "D19",
+    "D43",
+    "D18"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "미래 도시와 인프라",
+   "focus": "What urban planning concepts were presented at the fair and how did they relate to Robert Moses' vision?",
+   "start_docs": [
+    "D17",
+    "D49"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "사회·정치",
+   "focus": "What social costs and exclusions were associated with Robert Moses' projects and the fair's vision?",
+   "start_docs": [
+    "D30",
+    "D39",
+    "D23"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [
+   {
+    "role": "city",
+    "doc": "D43",
+    "reason": "duplicate start doc"
+   }
+  ],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 3,
+  "max_calls": 34,
+  "approx_prompt_tokens": 91800,
+  "approx_cost_usd": 0.026,
+  "read_budget_chars": 36000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2979,
+  "completion_tokens": 293,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

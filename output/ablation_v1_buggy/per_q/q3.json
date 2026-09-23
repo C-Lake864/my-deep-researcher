@@ -1,0 +1,407 @@
+{
+ "base": {
+  "run_ids": [
+   "9e1beecd",
+   "73cb7387"
+  ],
+  "signals": {
+   "sections": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "coverage_docs": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "overlap_rate": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "citation_density": {
+    "mean": 0.913,
+    "min": 0.853,
+    "max": 0.973
+   },
+   "cited_docs": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "budget_utilization": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "chars_coordinator": {
+    "mean": 2117,
+    "min": 2117,
+    "max": 2117
+   },
+   "chars_subagents": {
+    "mean": 24000,
+    "min": 24000,
+    "max": 24000
+   },
+   "isolation_ratio": {
+    "mean": 11.3,
+    "min": 11.3,
+    "max": 11.3
+   },
+   "calls": {
+    "mean": 14,
+    "min": 14,
+    "max": 14
+   },
+   "prompt_tokens": {
+    "mean": 18412.5,
+    "min": 18055,
+    "max": 18770
+   },
+   "completion_tokens": {
+    "mean": 4121.5,
+    "min": 4003,
+    "max": 4240
+   },
+   "report_chars": {
+    "mean": 4207.5,
+    "min": 4179,
+    "max": 4236
+   }
+  },
+  "alarms": {
+   "cited_unread": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "cited_nonexistent": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "invalid_dispatched": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "empty_sections": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "zone_violations": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   }
+  }
+ },
+ "off-zones": {
+  "run_ids": [
+   "3252bce9",
+   "a480d8d3"
+  ],
+  "signals": {
+   "sections": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "coverage_docs": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "overlap_rate": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "citation_density": {
+    "mean": 0.903,
+    "min": 0.889,
+    "max": 0.917
+   },
+   "cited_docs": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "budget_utilization": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "chars_coordinator": {
+    "mean": 2117,
+    "min": 2117,
+    "max": 2117
+   },
+   "chars_subagents": {
+    "mean": 24000,
+    "min": 24000,
+    "max": 24000
+   },
+   "isolation_ratio": {
+    "mean": 11.3,
+    "min": 11.3,
+    "max": 11.3
+   },
+   "calls": {
+    "mean": 14,
+    "min": 14,
+    "max": 14
+   },
+   "prompt_tokens": {
+    "mean": 17779.5,
+    "min": 17640,
+    "max": 17919
+   },
+   "completion_tokens": {
+    "mean": 3904.5,
+    "min": 3899,
+    "max": 3910
+   },
+   "report_chars": {
+    "mean": 3940,
+    "min": 3879,
+    "max": 4001
+   }
+  },
+  "alarms": {
+   "cited_unread": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "cited_nonexistent": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "invalid_dispatched": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "empty_sections": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "zone_violations": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   }
+  }
+ },
+ "off-recheck": {
+  "run_ids": [
+   "8cbf87cd",
+   "e0858f36"
+  ],
+  "signals": {
+   "sections": {
+    "mean": 2,
+    "min": 2,
+    "max": 2
+   },
+   "coverage_docs": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "overlap_rate": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "citation_density": {
+    "mean": 0.873,
+    "min": 0.794,
+    "max": 0.951
+   },
+   "cited_docs": {
+    "mean": 5,
+    "min": 5,
+    "max": 5
+   },
+   "budget_utilization": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "chars_coordinator": {
+    "mean": 2117,
+    "min": 2117,
+    "max": 2117
+   },
+   "chars_subagents": {
+    "mean": 24000,
+    "min": 24000,
+    "max": 24000
+   },
+   "isolation_ratio": {
+    "mean": 11.3,
+    "min": 11.3,
+    "max": 11.3
+   },
+   "calls": {
+    "mean": 14.5,
+    "min": 14,
+    "max": 15
+   },
+   "prompt_tokens": {
+    "mean": 18885.5,
+    "min": 18571,
+    "max": 19200
+   },
+   "completion_tokens": {
+    "mean": 4139,
+    "min": 3933,
+    "max": 4345
+   },
+   "report_chars": {
+    "mean": 4200,
+    "min": 3837,
+    "max": 4563
+   }
+  },
+  "alarms": {
+   "cited_unread": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "cited_nonexistent": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "invalid_dispatched": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "empty_sections": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "zone_violations": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   }
+  }
+ },
+ "baseline": {
+  "run_ids": [
+   "6cff0e38",
+   "a00faa0e"
+  ],
+  "signals": {
+   "sections": {
+    "mean": 1,
+    "min": 1,
+    "max": 1
+   },
+   "coverage_docs": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "overlap_rate": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "citation_density": {
+    "mean": 0.63,
+    "min": 0.621,
+    "max": 0.639
+   },
+   "cited_docs": {
+    "mean": 3,
+    "min": 3,
+    "max": 3
+   },
+   "budget_utilization": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "chars_coordinator": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "chars_subagents": {
+    "mean": 24000,
+    "min": 24000,
+    "max": 24000
+   },
+   "isolation_ratio": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "calls": {
+    "mean": 11,
+    "min": 11,
+    "max": 11
+   },
+   "prompt_tokens": {
+    "mean": 18207,
+    "min": 17494,
+    "max": 18920
+   },
+   "completion_tokens": {
+    "mean": 2589,
+    "min": 2428,
+    "max": 2750
+   },
+   "report_chars": {
+    "mean": 5279,
+    "min": 4817,
+    "max": 5741
+   },
+   "forced_continues": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   }
+  },
+  "alarms": {
+   "cited_unread": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "cited_nonexistent": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "invalid_dispatched": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "empty_sections": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   },
+   "zone_violations": {
+    "mean": 0,
+    "min": 0,
+    "max": 0
+   }
+  }
+ }
+}

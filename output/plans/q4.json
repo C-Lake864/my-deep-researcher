@@ -1,0 +1,137 @@
+{
+ "qid": "q4",
+ "question": "What role did corporations play in shaping the fair's image of the future, and how did it relate to Depression-era politics and labor conflict?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "자동차와 교통",
+    "focus": "기업이 교통 전시를 통해 미래의 이동 수단을 어떻게 형성했는가",
+    "start_docs": [
+     "D19",
+     "D21",
+     "D18"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "미래 도시와 인프라",
+    "focus": "기업이 도시 계획과 인프라 전시를 통해 미래 도시 이미지를 어떻게 형성했는가",
+    "start_docs": [
+     "D05",
+     "D20",
+     "D08"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "사회·정치",
+    "focus": "대공황과 뉴딜 맥락에서 기업이 미래상의 형성에 어떻게 기여했는가",
+    "start_docs": [
+     "D30",
+     "D23",
+     "D15"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "가정과 일상생활",
+    "focus": "기업이 가전 제품 전시를 통해 가정의 미래상을 어떻게 형성했는가",
+    "start_docs": [
+     "D27",
+     "D12",
+     "D11"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "통신·매체와 과학",
+    "focus": "기업이 매체 전시를 통해 과학과 기록의 미래상을 어떻게 형성했는가",
+    "start_docs": [
+     "D38",
+     "D26",
+     "D51"
+    ]
+   }
+  ],
+  "rationale": "각 섹션은 기업의 역할과 대공황 시대의 정치 및 노동 갈등과의 관계를 다루기 위해 필요한 특정 주제에 따라 나뉘어 있습니다. 각 섹션의 시작 문서는 해당 주제에 가장 직접적으로 관련된 전시나 기업을 다루고 있어, 질문에 대한 답변을 효과적으로 제공할 수 있습니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "자동차와 교통",
+   "focus": "기업이 교통 전시를 통해 미래의 이동 수단을 어떻게 형성했는가",
+   "start_docs": [
+    "D19",
+    "D21",
+    "D18"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "미래 도시와 인프라",
+   "focus": "기업이 도시 계획과 인프라 전시를 통해 미래 도시 이미지를 어떻게 형성했는가",
+   "start_docs": [
+    "D05",
+    "D20",
+    "D08"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "사회·정치",
+   "focus": "대공황과 뉴딜 맥락에서 기업이 미래상의 형성에 어떻게 기여했는가",
+   "start_docs": [
+    "D30",
+    "D23",
+    "D15"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "가정과 일상생활",
+   "focus": "기업이 가전 제품 전시를 통해 가정의 미래상을 어떻게 형성했는가",
+   "start_docs": [
+    "D27",
+    "D12",
+    "D11"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "통신·매체와 과학",
+   "focus": "기업이 매체 전시를 통해 과학과 기록의 미래상을 어떻게 형성했는가",
+   "start_docs": [
+    "D38",
+    "D26",
+    "D51"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2987,
+  "completion_tokens": 342,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

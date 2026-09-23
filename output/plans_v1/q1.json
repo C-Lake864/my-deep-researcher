@@ -1,0 +1,137 @@
+{
+ "qid": "q1",
+ "question": "How did the 1939 New York World's Fair imagine the future city and everyday life, and how did the visions of organizers and corporations differ?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "Futurama: The Future of Transportation",
+    "focus": "English: How did the Futurama exhibit envision the future of transportation, and what corporate intentions were behind these visions?",
+    "start_docs": [
+     "D19",
+     "D18",
+     "D21"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Democracity: Urban Planning and Infrastructure",
+    "focus": "English: What future city concepts were presented in the Democracity exhibit, and how did they reflect urban planning ideologies?",
+    "start_docs": [
+     "D05",
+     "D20",
+     "D49"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "The Future of Home Life",
+    "focus": "English: How did the exhibits on household appliances and materials depict the future of everyday life and consumerism?",
+    "start_docs": [
+     "D27",
+     "D11",
+     "D12"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "Innovations in Communication and Science",
+    "focus": "English: What advancements in media and science were showcased, and how did they reflect future expectations?",
+    "start_docs": [
+     "D26",
+     "D55",
+     "D38"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "Social Context and Future Visions",
+    "focus": "English: Whose future was envisioned at the fair, and what social and political contexts influenced these visions?",
+    "start_docs": [
+     "D30",
+     "D23",
+     "D39"
+    ]
+   }
+  ],
+  "rationale": "Korean: The question addresses multiple aspects of the 1939 New York World's Fair, including transportation, urban planning, home life, media, and societal context. Each section focuses on a specific content domain to explore how the fair imagined the future and the differing visions of organizers and corporations."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "Futurama: The Future of Transportation",
+   "focus": "English: How did the Futurama exhibit envision the future of transportation, and what corporate intentions were behind these visions?",
+   "start_docs": [
+    "D19",
+    "D18",
+    "D21"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Democracity: Urban Planning and Infrastructure",
+   "focus": "English: What future city concepts were presented in the Democracity exhibit, and how did they reflect urban planning ideologies?",
+   "start_docs": [
+    "D05",
+    "D20",
+    "D49"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "The Future of Home Life",
+   "focus": "English: How did the exhibits on household appliances and materials depict the future of everyday life and consumerism?",
+   "start_docs": [
+    "D27",
+    "D11",
+    "D12"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "Innovations in Communication and Science",
+   "focus": "English: What advancements in media and science were showcased, and how did they reflect future expectations?",
+   "start_docs": [
+    "D26",
+    "D55",
+    "D38"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "Social Context and Future Visions",
+   "focus": "English: Whose future was envisioned at the fair, and what social and political contexts influenced these visions?",
+   "start_docs": [
+    "D30",
+    "D23",
+    "D39"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2859,
+  "completion_tokens": 411,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

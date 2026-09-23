@@ -1,0 +1,49 @@
+{
+ "qid": "q8",
+ "question": "What is the Westinghouse Time Capsule and when is it meant to be opened?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "media",
+    "heading": "Westinghouse Time Capsules",
+    "focus": "Details about the Westinghouse Time Capsule and its intended opening date.",
+    "start_docs": [
+     "D55"
+    ]
+   }
+  ],
+  "rationale": "이 질문은 Westinghouse Time Capsule에 대한 구체적인 정보를 요구하므로, 해당 주제에 직접적으로 관련된 문서인 D55를 시작 문서로 선택했습니다. 이 문서는 타임캡슐의 배경, 내용, 위치 및 개봉 예정일에 대한 정보를 포함하고 있어 질문에 대한 답변을 제공하는 데 적합합니다."
+ },
+ "plan": [
+  {
+   "role": "media",
+   "heading": "Westinghouse Time Capsules",
+   "focus": "Details about the Westinghouse Time Capsule and its intended opening date.",
+   "start_docs": [
+    "D55"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 1,
+  "max_calls": 12,
+  "approx_prompt_tokens": 34600,
+  "approx_cost_usd": 0.0095,
+  "read_budget_chars": 12000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2976,
+  "completion_tokens": 123,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

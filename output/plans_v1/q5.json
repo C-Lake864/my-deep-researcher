@@ -1,0 +1,137 @@
+{
+ "qid": "q5",
+ "question": "Which technologies shown at the 1939 fair became part of everyday life, and which predictions failed? Compare across domains.",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "자동차와 교통",
+    "focus": "English: Explore the technologies related to transportation showcased at the fair and their impact on everyday life, including successes and failures.",
+    "start_docs": [
+     "D19",
+     "D21",
+     "D07"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "미래 도시와 인프라",
+    "focus": "English: Analyze the urban planning concepts presented at the fair and their relevance to modern city infrastructure, identifying what has been realized and what has not.",
+    "start_docs": [
+     "D05",
+     "D20",
+     "D49"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "가정과 일상생활",
+    "focus": "English: Investigate the household technologies introduced at the fair, their adoption in daily life, and the predictions that did not materialize.",
+    "start_docs": [
+     "D27",
+     "D11",
+     "D16"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "통신·매체와 과학",
+    "focus": "English: Examine the media technologies and scientific advancements presented at the fair, assessing their integration into society and any failed predictions.",
+    "start_docs": [
+     "D26",
+     "D38",
+     "D51"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "사회·정치",
+    "focus": "English: Discuss the societal implications of the fair's themes, including who was included or excluded in the envisioned future, and how these aspects have evolved.",
+    "start_docs": [
+     "D09",
+     "D30",
+     "D23"
+    ]
+   }
+  ],
+  "rationale": "Korean: The question requires a comprehensive analysis of various domains related to the technologies and predictions made at the 1939 New York World's Fair. Each section focuses on a specific role to provide a detailed examination of the fair's impact across transportation, urban planning, home technologies, media advancements, and societal implications."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "자동차와 교통",
+   "focus": "English: Explore the technologies related to transportation showcased at the fair and their impact on everyday life, including successes and failures.",
+   "start_docs": [
+    "D19",
+    "D21",
+    "D07"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "미래 도시와 인프라",
+   "focus": "English: Analyze the urban planning concepts presented at the fair and their relevance to modern city infrastructure, identifying what has been realized and what has not.",
+   "start_docs": [
+    "D05",
+    "D20",
+    "D49"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "가정과 일상생활",
+   "focus": "English: Investigate the household technologies introduced at the fair, their adoption in daily life, and the predictions that did not materialize.",
+   "start_docs": [
+    "D27",
+    "D11",
+    "D16"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "통신·매체와 과학",
+   "focus": "English: Examine the media technologies and scientific advancements presented at the fair, assessing their integration into society and any failed predictions.",
+   "start_docs": [
+    "D26",
+    "D38",
+    "D51"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "사회·정치",
+   "focus": "English: Discuss the societal implications of the fair's themes, including who was included or excluded in the envisioned future, and how these aspects have evolved.",
+   "start_docs": [
+    "D09",
+    "D30",
+    "D23"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2854,
+  "completion_tokens": 437,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

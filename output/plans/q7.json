@@ -1,0 +1,49 @@
+{
+ "qid": "q7",
+ "question": "What was Elektro, the Westinghouse robot?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "home",
+    "heading": "Elektro: The Westinghouse Robot",
+    "focus": "Details about Elektro, the Westinghouse robot, including its specifications and exhibit history.",
+    "start_docs": [
+     "D13"
+    ]
+   }
+  ],
+  "rationale": "이 질문은 Elektro라는 특정 로봇에 대한 정보에 집중하고 있습니다. 따라서 '가정과 일상생활' 역할 아래에서 Elektro에 대한 구체적인 내용을 다루는 D13 문서를 시작 문서로 선택했습니다. 다른 역할은 Elektro와 직접적으로 관련이 없으므로 포함하지 않았습니다."
+ },
+ "plan": [
+  {
+   "role": "home",
+   "heading": "Elektro: The Westinghouse Robot",
+   "focus": "Details about Elektro, the Westinghouse robot, including its specifications and exhibit history.",
+   "start_docs": [
+    "D13"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 1,
+  "max_calls": 12,
+  "approx_prompt_tokens": 34600,
+  "approx_cost_usd": 0.0095,
+  "read_budget_chars": 12000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2969,
+  "completion_tokens": 118,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

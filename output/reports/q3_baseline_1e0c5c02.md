@@ -1,0 +1,25 @@
+# The Vision of Futurama and Its Impact on Post-War America
+
+## Introduction
+The 1939 New York World's Fair featured an exhibit called Futurama, presented by General Motors (GM), which introduced a visionary concept of highways and cars that would shape the American landscape in the decades to follow. This exhibit not only showcased a model of a motorway system designed to alleviate traffic congestion but also promoted safety, comfort, speed, and economy through technological progress. The influence of Futurama on the actual development of highways and suburbs in post-war America is profound, as it served the interests of automobile manufacturers and suburban developers while simultaneously reshaping urban planning.
+
+## The Vision of Futurama
+Futurama introduced the American public to a network of expressways that envisioned a future filled with multi-lane highways and automated vehicles. The model presented at the fair included over 500,000 buildings and 50,000 cars, illustrating a utopian vision of urban planning that emphasized the benefits of a car-centric society. The exhibit was designed to inspire public enthusiasm for highway planning and construction, effectively aligning the interests of GM with those of the government and the public [D19].
+
+## Historical Context of Highway Development
+The groundwork for the highway system was laid long before Futurama. The Federal Aid Road Act of 1916 initiated efforts for a national highway network, providing significant funding for state matching funds. This was followed by the Federal Aid Highway Act of 1921, which aimed to create a national road grid, further emphasizing the need for improved highways [D28]. The 1920s saw a boom in road construction, leading to the development of interconnected primary highways. By the late 1930s, planning for new superhighways was underway, influenced by earlier proposals and the need for a national defense network [D28]. 
+
+In 1938, President Roosevelt marked eight superhighway corridors for study, which eventually led to the formal description of the Interstate Highway System in 1939 [D28]. This historical context illustrates that the vision presented in Futurama was not merely a product of imagination but was deeply rooted in ongoing governmental efforts to improve transportation infrastructure.
+
+## The Impact of the Interstate Highway System
+The Interstate Highway System, established through the Federal-Aid Highway Act of 1956, fundamentally transformed American society. It created a network of controlled-access highways that facilitated economic growth by improving interstate shipping and enabling faster product delivery [D28]. However, this expansion came at a significant cost. The construction of the Interstate Highway System displaced over 475,000 households and one million people, contributing to urban decline and increased racial segregation as neighborhoods were destroyed in the name of urban renewal [D28]. 
+
+Moreover, the system led to a decline in passenger and freight rail, while the trucking industry expanded significantly. Suburbanization increased, resulting in larger, car-dependent housing developments, which often perpetuated racial segregation through white flight [D28]. The design and construction methods of communities like Levittown reflected these trends, as they were built to accommodate the growing number of cars and the desire for suburban living [D29]. 
+
+## Levittown: A Case Study
+Levittown, built by Levitt & Sons between 1947 and 1951, serves as a prime example of how the vision of Futurama and the realities of the highway system intersected. Designed to address post-war housing needs, Levittown utilized mass production techniques to construct homes quickly and affordably, making them accessible to returning GIs [D29]. The community expanded rapidly, reflecting the high demand for suburban living facilitated by the Interstate Highway System [D29]. 
+
+However, Levittown's infrastructure also mirrored the car-centric development trends influenced by the highway system. Major roads like NY 24, Wantagh Parkway, and Gardiners Avenue became vital arteries for the community, emphasizing the reliance on automobiles for transportation [D29]. Despite its growth, Levittown lacked passenger rail service, further entrenching car dependency in the region [D29]. 
+
+## Conclusion
+The vision of Futurama and the subsequent development of the Interstate Highway System fundamentally reshaped American society in the post-war era. While Futurama imagined a future of technological progress and utopian urban planning, the reality of highway construction served the interests of automobile manufacturers and suburban developers, often at the expense of marginalized communities. Today, as we grapple with the consequences of car dependency and suburban sprawl, it is essential to reflect on how these historical visions continue to influence urban planning and transportation policies. The lessons learned from the past can guide us toward a more equitable and sustainable future.

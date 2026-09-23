@@ -1,0 +1,95 @@
+{
+ "qid": "q4",
+ "question": "What role did corporations play in shaping the fair's image of the future, and how did it relate to Depression-era politics and labor conflict?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "Futurama and the Future of Transportation",
+    "focus": "English: Explore how the Futurama exhibit depicted the future of automobiles and highways, and the corporate intentions behind it.",
+    "start_docs": [
+     "D19",
+     "D18",
+     "D21"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Democracity and Urban Planning Visions",
+    "focus": "English: Examine how the Democracity exhibit presented ideas about future cities and infrastructure, reflecting corporate and political influences.",
+    "start_docs": [
+     "D05",
+     "D20",
+     "D49"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "Depression-era Politics and Labor Conflicts",
+    "focus": "English: Analyze the social and political context of the fair, including the impact of the Great Depression and labor movements on its themes and corporate sponsorship.",
+    "start_docs": [
+     "D23",
+     "D30",
+     "D15"
+    ]
+   }
+  ],
+  "rationale": "Korean: This split allows for a focused examination of the roles of transportation, urban planning, and societal issues in shaping the fair's image of the future, directly linking corporate influence to the political and economic context of the time."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "Futurama and the Future of Transportation",
+   "focus": "English: Explore how the Futurama exhibit depicted the future of automobiles and highways, and the corporate intentions behind it.",
+   "start_docs": [
+    "D19",
+    "D18",
+    "D21"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Democracity and Urban Planning Visions",
+   "focus": "English: Examine how the Democracity exhibit presented ideas about future cities and infrastructure, reflecting corporate and political influences.",
+   "start_docs": [
+    "D05",
+    "D20",
+    "D49"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "Depression-era Politics and Labor Conflicts",
+   "focus": "English: Analyze the social and political context of the fair, including the impact of the Great Depression and labor movements on its themes and corporate sponsorship.",
+   "start_docs": [
+    "D23",
+    "D30",
+    "D15"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 3,
+  "max_calls": 34,
+  "approx_prompt_tokens": 91800,
+  "approx_cost_usd": 0.026,
+  "read_budget_chars": 36000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2858,
+  "completion_tokens": 278,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

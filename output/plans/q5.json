@@ -1,0 +1,127 @@
+{
+ "qid": "q5",
+ "question": "Which technologies shown at the 1939 fair became part of everyday life, and which predictions failed? Compare across domains.",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "Automobiles and Transportation Technologies",
+    "focus": "Technologies related to transportation shown at the fair and their impact on everyday life.",
+    "start_docs": [
+     "D19",
+     "D18"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Future Cities and Infrastructure",
+    "focus": "Exhibits related to urban planning and infrastructure, and their relevance to modern city development.",
+    "start_docs": [
+     "D20",
+     "D08"
+    ]
+   },
+   {
+    "role": "home",
+    "heading": "Home Appliances and Daily Life",
+    "focus": "Technologies in home appliances presented at the fair and their integration into daily life.",
+    "start_docs": [
+     "D27",
+     "D11"
+    ]
+   },
+   {
+    "role": "media",
+    "heading": "Media and Communication Technologies",
+    "focus": "Innovations in media and communication showcased at the fair and their evolution into everyday use.",
+    "start_docs": [
+     "D26",
+     "D51"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "Social Context and Predictions",
+    "focus": "The societal implications of the fair's predictions and who they included or excluded.",
+    "start_docs": [
+     "D30",
+     "D39"
+    ]
+   }
+  ],
+  "rationale": "이 보고서는 1939년 뉴욕 세계 박람회에서 보여진 기술들이 일상생활에 어떻게 통합되었는지와 실패한 예측을 비교하는 데 초점을 맞추고 있습니다. 각 섹션은 특정 기술 분야에 대한 전시와 그 사회적 맥락을 다루고 있으며, 각 역할에 따라 가장 관련성이 높은 문서들로 시작하여 각 기술의 발전과 그 결과를 분석합니다. 이로 인해 각 기술이 어떻게 일상생활에 영향을 미쳤는지에 대한 명확한 비교가 가능합니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "Automobiles and Transportation Technologies",
+   "focus": "Technologies related to transportation shown at the fair and their impact on everyday life.",
+   "start_docs": [
+    "D19",
+    "D18"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Future Cities and Infrastructure",
+   "focus": "Exhibits related to urban planning and infrastructure, and their relevance to modern city development.",
+   "start_docs": [
+    "D20",
+    "D08"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "home",
+   "heading": "Home Appliances and Daily Life",
+   "focus": "Technologies in home appliances presented at the fair and their integration into daily life.",
+   "start_docs": [
+    "D27",
+    "D11"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "media",
+   "heading": "Media and Communication Technologies",
+   "focus": "Innovations in media and communication showcased at the fair and their evolution into everyday use.",
+   "start_docs": [
+    "D26",
+    "D51"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "Social Context and Predictions",
+   "focus": "The societal implications of the fair's predictions and who they included or excluded.",
+   "start_docs": [
+    "D30",
+    "D39"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 5,
+  "max_calls": 56,
+  "approx_prompt_tokens": 149000,
+  "approx_cost_usd": 0.0425,
+  "read_budget_chars": 60000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2983,
+  "completion_tokens": 329,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

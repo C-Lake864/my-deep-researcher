@@ -1,0 +1,52 @@
+{
+  "model": "gpt-4o-mini",
+  "max_sections": 5,
+  "section_budget_chars": 12000,
+  "max_read_chars": 4000,
+  "max_steps": 5,
+  "max_start_docs": 3,
+  "max_rounds": 1,
+  "recheck_budget_chars": 6000,
+  "baseline_min_utilization": 0.9,
+  "hub_docs": ["1939 New York World's Fair"],
+  "hub_lead_chars": 2500,
+  "switches": {"zones": true, "validate": true, "recheck": true},
+  "roles": {
+    "transport": {
+      "label": "자동차와 교통",
+      "brief": "Futurama 등 교통 전시가 그린 자동차·고속도로·이동의 미래상과 그 뒤의 기업 의도",
+      "zone": ["Futurama (New York World's Fair)", "Norman Bel Geddes", "General Motors",
+               "Interstate Highway System", "Platoon (automobile)", "Ford Motor Company", "Chrysler",
+               "Pennsylvania Railroad class S1", "Streamline Moderne", "Raymond Loewy"]
+    },
+    "city": {
+      "label": "미래 도시와 인프라",
+      "brief": "Democracity(테마센터)와 도시 계획 사상이 그린 도시·전력·교외의 미래상",
+      "zone": ["Trylon and Perisphere", "Henry Dreyfuss", "Consolidated Edison", "Garden city movement",
+               "Suburb", "Urban planning", "Radiant City", "Broadacre City", "Robert Moses",
+               "Flushing Meadows–Corona Park"]
+    },
+    "home": {
+      "label": "가정과 일상생활",
+      "brief": "가전·신소재·조명 전시가 그린 가정과 소비생활의 미래상",
+      "zone": ["Westinghouse Electric Corporation", "Elektro", "Home appliance", "Dishwasher",
+               "Air conditioning", "Nylon", "DuPont", "Fluorescent lamp", "Elsie the Cow",
+               "Walter Dorwin Teague", "View-Master"]
+    },
+    "media": {
+      "label": "통신·매체와 과학",
+      "brief": "텔레비전·합성음성·타임캡슐이 그린 매체와 기록, 과학의 미래상",
+      "zone": ["RCA Corporation", "History of television", "Voder", "Westinghouse Time Capsules",
+               "Albert Einstein"]
+    },
+    "society": {
+      "label": "사회·정치 — 누구의 미래였나",
+      "brief": "대공황·뉴딜·노동·인종·교외화·전쟁 직전 국제관 맥락에서, 그 미래상이 누구를 포함하고 배제했는가",
+      "zone": ["Great Depression", "New Deal", "Flint sit-down strike", "Welfare capitalism",
+               "Corporate propaganda", "Consumerism", "Planned obsolescence", "Technocracy movement",
+               "Redlining", "Levittown, New York", "The Power Broker",
+               "Racial segregation in the United States", "Polish pavilion"]
+    }
+  },
+  "context_docs_note": "1964 New York World's Fair, Golden Gate International Exposition, Century of Progress, Queens Museum, Grover Whalen 은 어느 구역에도 속하지 않는 공용 문서 — 누구나 링크로 닿으면 읽을 수 있다"
+}

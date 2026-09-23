@@ -1,0 +1,89 @@
+{
+ "qid": "q9",
+ "question": "How did the looming Second World War and the international pavilions complicate the fair's optimistic vision of tomorrow?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "자동차와 교통",
+    "focus": "How did the transportation exhibits reflect the fair's vision of the future amidst the looming war?",
+    "start_docs": [
+     "D19",
+     "D18"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "미래 도시와 인프라",
+    "focus": "How did the urban planning exhibits contribute to the fair's optimistic vision in the context of global tensions?",
+    "start_docs": [
+     "D05",
+     "D20"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "사회·정치",
+    "focus": "How did the social and political context, including the international pavilions, affect the fair's portrayal of the future?",
+    "start_docs": [
+     "D30",
+     "D23"
+    ]
+   }
+  ],
+  "rationale": "이 보고서는 1939년 뉴욕 세계 박람회가 전쟁의 그림자 속에서 어떻게 미래에 대한 낙관적인 비전을 복잡하게 만들었는지를 탐구합니다. 각 섹션은 교통, 도시 계획, 사회적 맥락을 통해 이 주제를 다루며, 각 섹션의 시작 문서는 해당 주제에 가장 구체적으로 관련된 전시와 맥락을 제공합니다. 교통 전시(D19, D18)는 미래의 이동 수단을 보여주고, 도시 전시(D05, D20)는 미래 도시의 비전을 제시하며, 사회적 맥락(D30, D23)은 국제 전시와 정치적 상황이 미래 비전의 포괄성과 배제성을 어떻게 형성했는지를 설명합니다."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "자동차와 교통",
+   "focus": "How did the transportation exhibits reflect the fair's vision of the future amidst the looming war?",
+   "start_docs": [
+    "D19",
+    "D18"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "미래 도시와 인프라",
+   "focus": "How did the urban planning exhibits contribute to the fair's optimistic vision in the context of global tensions?",
+   "start_docs": [
+    "D05",
+    "D20"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "사회·정치",
+   "focus": "How did the social and political context, including the international pavilions, affect the fair's portrayal of the future?",
+   "start_docs": [
+    "D30",
+    "D23"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 3,
+  "max_calls": 34,
+  "approx_prompt_tokens": 91800,
+  "approx_cost_usd": 0.026,
+  "read_budget_chars": 36000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2982,
+  "completion_tokens": 319,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

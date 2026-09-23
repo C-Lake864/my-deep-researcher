@@ -1,0 +1,85 @@
+{
+ "qid": "q6",
+ "question": "How did Robert Moses shape the fairgrounds and New York's infrastructure, and what social costs followed?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "transport",
+    "heading": "Futurama and the Vision of Future Transportation",
+    "focus": "How did transportation exhibits like Futurama reflect corporate intentions and the future of mobility?",
+    "start_docs": [
+     "D19"
+    ]
+   },
+   {
+    "role": "city",
+    "heading": "Robert Moses and Urban Infrastructure",
+    "focus": "What role did Robert Moses play in shaping urban planning and infrastructure in New York?",
+    "start_docs": [
+     "D43"
+    ]
+   },
+   {
+    "role": "society",
+    "heading": "Social Costs and Exclusions in Urban Development",
+    "focus": "What were the social implications and exclusions resulting from urban planning and infrastructure changes?",
+    "start_docs": [
+     "D39",
+     "D42"
+    ]
+   }
+  ],
+  "rationale": "The question focuses on the impact of Robert Moses on the fairgrounds and New York's infrastructure, which necessitates an exploration of transportation visions, urban planning, and the social consequences of these developments."
+ },
+ "plan": [
+  {
+   "role": "transport",
+   "heading": "Futurama and the Vision of Future Transportation",
+   "focus": "How did transportation exhibits like Futurama reflect corporate intentions and the future of mobility?",
+   "start_docs": [
+    "D19"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "city",
+   "heading": "Robert Moses and Urban Infrastructure",
+   "focus": "What role did Robert Moses play in shaping urban planning and infrastructure in New York?",
+   "start_docs": [
+    "D43"
+   ],
+   "budget": 12000
+  },
+  {
+   "role": "society",
+   "heading": "Social Costs and Exclusions in Urban Development",
+   "focus": "What were the social implications and exclusions resulting from urban planning and infrastructure changes?",
+   "start_docs": [
+    "D39",
+    "D42"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 3,
+  "max_calls": 34,
+  "approx_prompt_tokens": 91800,
+  "approx_cost_usd": 0.026,
+  "read_budget_chars": 36000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2850,
+  "completion_tokens": 222,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}

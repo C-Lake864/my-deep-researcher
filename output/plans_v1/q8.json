@@ -1,0 +1,49 @@
+{
+ "qid": "q8",
+ "question": "What is the Westinghouse Time Capsule and when is it meant to be opened?",
+ "raw_plan": {
+  "sections": [
+   {
+    "role": "media",
+    "heading": "Westinghouse Time Capsules",
+    "focus": "Details about the Westinghouse Time Capsule and its intended opening date.",
+    "start_docs": [
+     "D55"
+    ]
+   }
+  ],
+  "rationale": "The question specifically pertains to the Westinghouse Time Capsule, which falls under the media role as it relates to records and future communication. The selected document directly addresses the background, contents, and intended opening of the time capsules."
+ },
+ "plan": [
+  {
+   "role": "media",
+   "heading": "Westinghouse Time Capsules",
+   "focus": "Details about the Westinghouse Time Capsule and its intended opening date.",
+   "start_docs": [
+    "D55"
+   ],
+   "budget": 12000
+  }
+ ],
+ "plan_check": {
+  "rejected": [],
+  "fixed_titles": 0,
+  "invalid_dispatched": 0,
+  "validate_on": true
+ },
+ "estimate": {
+  "sections": 1,
+  "max_calls": 12,
+  "approx_prompt_tokens": 34600,
+  "approx_cost_usd": 0.0095,
+  "read_budget_chars": 12000
+ },
+ "planning_usage": {
+  "calls": 1,
+  "prompt_tokens": 2847,
+  "completion_tokens": 110,
+  "chars_seen": {
+   "coordinator": 2117
+  }
+ }
+}
